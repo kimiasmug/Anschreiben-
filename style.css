@@ -1,0 +1,141 @@
+ /* =========================================
+   تنظیمات کلی صفحه Bewerbung
+   ========================================= */
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+
+    width: 100%;
+    min-height: 100%;
+}
+
+
+/* =========================================
+   صفحه Bewerbung
+   ========================================= */
+
+body {
+    background-color: #433F46;
+
+    font-family: "Quadrant Text Mono", monospace;
+
+    color: #433F46;
+}
+
+
+/* =========================================
+   عنوان Bewerbung
+   ========================================= */
+
+.application-title {
+    text-align: center;
+
+    margin: 30px 0 40px;
+
+    color: #E7E7E0;
+
+    font-family: "Courier New", monospace;
+
+    font-size: 50px;
+}
+
+
+/* =========================================
+   کادر متن Bewerbung
+   ========================================= */
+
+.application-box {
+    width: 900px;
+
+    margin: 0 auto;
+
+    padding: 50px;
+
+    background-color: #E7E7E0;
+
+    box-sizing: border-box;
+}
+
+
+/* =========================================
+   متن داخل کادر
+   ========================================= */
+
+.application-box p {
+    color: #433F46;
+
+    font-size: 16px;
+
+    line-height: 1.7;
+
+    margin: 0 0 20px;
+}
+
+
+/* =========================================
+   Back
+   ========================================= */
+
+.back {
+    display: block;
+
+    width: fit-content;
+
+    margin: 40px auto;
+
+    color: #E7E7E0;
+
+    text-decoration: none;
+}
+
+
+.back:hover {
+    text-decoration: underline;
+}
+
+
+/* =========================================
+   Responsive - Mobile
+   ========================================= */
+
+@media (max-width: 600px) {
+
+    /* عنوان */
+
+    .application-title {
+        font-size: 32px;
+
+        margin: 25px 0 30px;
+    }
+
+
+    /* کادر متن */
+
+    .application-box {
+        width: 90%;
+
+        padding: 25px;
+    }
+
+
+    /* متن */
+
+    .application-box p {
+        font-size: 13px;
+
+        line-height: 1.7;
+
+        margin-bottom: 18px;
+    }
+
+
+    /* Back */
+
+    .back {
+        margin: 25px auto 30px;
+
+        font-size: 13px;
+    }
+}
